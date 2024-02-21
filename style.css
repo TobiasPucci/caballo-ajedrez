@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+    width: fit-content;
+    margin: auto;
+}
+
+.chess-container{
+    border: 7px solid grey;
+    width: fit-content;
+}
+
+.chess-board{
+    margin: auto;
+    width: fit-content;
+}
+
+.chess-row{
+    display: flex;
+}
+
+.light{
+    background-color: lightyellow;
+}
+
+.dark{
+    background-color: darkred;
+}
+
+.square{
+    width: 55px;
+    height: 55px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    transition-duration: 200ms;
+}
+
+.horizontal-rectangle{
+    width: 55px;
+    height: fit-content;
+}
+
+.vertical-rectangle{
+    height: 55px;
+    width: fit-content;
+}
+
+.square-selected{
+    border: 6px solid darkorange;
+}
+
+.square-possible{
+    border: 6px solid darkgoldenrod;
+}
+
+.input-container{
+    display: flex;
+    align-items: center;
+}
+
+select{
+    background-color: #777;
+    width: fit-content;
+    margin: 0px 0px 0px 5px;
+}
+
+p{
+    color: white;
+}
+
+p.reference{
+    font-size: medium;
+    color: #000;
+    text-align: center;
+    padding: 2px;
+    margin: 0px;
+}
+
+p.vertical{
+    height: 55px;
+    line-height: 55px;
+}
